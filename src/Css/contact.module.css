@@ -1,0 +1,56 @@
+.contactUsContainer {
+    padding-bottom: 48px;
+    background: #F9FAFB;
+}
+
+.contactSection {
+    /* width: 50%; */
+    background: url('../assets/Images/ContactUs/Background.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 60px 100px;
+    border-radius: 52px;
+}
+
+.contactSection .contactSectionLeft {
+    width: 45%;
+
+}
+
+.contactSection .contactSectionRight {
+    width: 65%;
+    padding: 0 80px;
+}
+
+.contactSection .contactLeftImg {
+    margin-top: -130px;
+}
+
+.contactSection h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    color: #ffffff;
+
+}
+
+.contactSection .paraContact {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #F9FAFB;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.contactSection .paralist {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}

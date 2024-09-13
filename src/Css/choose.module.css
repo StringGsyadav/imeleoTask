@@ -1,0 +1,35 @@
+.servicesContainer{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    /* background: #F9FAFB; */
+    
+}
+.CardContainer{
+    margin-top:48px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px 24px;
+}
+.serviceCard{
+    padding: 24px;
+    border-radius: 28px;
+    border: 1px solid #D1D5DB;
+    background: #FFFFFF;
+    height: 100%;
+}
+.serviceTitle{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    padding: 18px 0;
+    color: #1E40AF;
+
+}
+.serviceDescripion{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: #4B5563;
+}

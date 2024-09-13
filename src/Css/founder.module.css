@@ -1,0 +1,60 @@
+.founderContainer {
+    /* padding-top: 48px; */
+    padding-bottom: 48px;
+    background: #F9FAFB;
+    display: flex;
+    padding: 60px 100px;
+    gap: 0px 24px;
+
+}
+.founderContainer .leftSection{
+    width: 50%;
+}
+
+.founderContainer .rightSection{
+    width: 50%;
+    padding-left: 40px;
+}
+
+
+.founderHeading {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    color: #374151;
+    /* margin-right: 10px; */
+    margin-bottom: 40px;
+
+
+}
+
+.founderHeading>span {
+    color: #1E40AF;
+
+}
+
+.founderPara {
+    font-size: 24px;
+    /* font-weight: 700; */
+    line-height: 28.8px;
+    color: #4B5563;
+    margin-top: 20px;
+
+}
+.blod{
+    font-weight: 700;
+}
+.founderName {
+    margin-top:30px;
+    font-size: 33.99px;
+    font-weight: 600;
+    line-height: 40.79px;
+    color: #1E40AF;
+}
+
+.founderPosition {
+    font-size: 22.66px;
+    font-weight: 600;
+    line-height: 27.19px;
+    color: #1F2937;
+}

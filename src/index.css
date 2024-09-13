@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Urbanist", sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.commonSpace{
+    margin-top: 18px;
+    padding: 20px 0px;
+}
+.commonHeading{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    color: #1E40AF;
+    text-align: center;
+}
+
+.commonPara{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #6B7280;
+    text-align: center;
+    padding-top:8px;
+}
+
+
+.commonCardHeading{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #1E40AF;
+    padding:12px 0;
+}
+
+.commonCardPara{
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 400;
+    color: #475569;
+}
+.px-100{
+    padding-inline:100px;
+}
+.btn-element{
+    padding: 14px 36px;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid #1E40AE;
+    font-size: 16px;
+    line-height: 19.2px;
+    color:#1E293B;
+}
+.btn-element.btn-primary{
+    background:  #1E40AE;
+    color:#FFFFFF;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+.btn > button{
+    padding: 14px 36px;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid #1E40AE;
+    font-size: 16px;
+    line-height: 19.2px;
+    color:#1E293B;
+}
